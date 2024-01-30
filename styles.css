@@ -1,0 +1,55 @@
+
+
+body {
+    padding-top: 56px; 
+    background-color: #000;
+    color: #fff;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #FF6347; 
+}
+
+#hero {
+    background-color: #FF7F50; 
+    color: #fff;
+    padding: 100px 0;
+}
+
+#about,
+#projects,
+#contact {
+    padding: 80px 0;
+}
+
+.btn-primary {
+    background-color: #FF7F50; 
+    border-color: #FF7F50;
+}
+
+.btn-primary:hover {
+    background-color: #CD5C5C; 
+    border-color: #CD5C5C;
+}
+
+.modal-content {
+    background-color: #333; 
+    color: #fff;
+}
+
+
+.modal-content img {
+    max-width: 100%; 
+    height: auto;
+}
+
+
+#projects {
+    color: #000 !important;
+}
+
+

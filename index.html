@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>R.O.W.N.E Portfolio</title>
+    <!-- Add this within the head section of your HTML file -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <!-- Bootstrap CDN links -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#top">R.O.W.N.E Portfolio</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+            <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="container-fluid animate__animated animate__fadeIn">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h1 class="display-4">Everything Behind The mind of "R.O.W.N.E BRAND"</h1>
+                <p class="lead">The brand that made a cultural shift in fashion...</p>
+            </div>
+        </div>
+    </section>
+
+ <!-- About Me Section -->
+<section id="about" class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>About Me</h2>
+            <p>get to know more about me by clicking the button below...</p>
+            <!-- Button to trigger the modal -->
+            <button id="showPopup" class="btn btn-primary" data-toggle="modal" data-target="#infoModal">Show More</button>
+        </div>
+        <div class="col-md-6">
+            <h2>Skills</h2>
+            <ul>
+                <li>Web Development, Software Engineer</li>
+                <li>HTML, CSS, JavaScript, SQL, C++, C#, Python, etc...</li>
+                <li>Entrepreneur</li>
+                <li>Business Owner, Trader, Investor, etc...</li>
+                <!-- Add more skills as needed -->
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Modal -->
+<div class="modal fade" id="infoModal" tabindex="-1" role="dialog" aria-labelledby="infoModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="infoModalLabel">Hey, I am the mastermind behind it all...</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                       
+                        <p>Name: Rowne Parker(pen name, not real name for privacy)</p>
+                        <p>Height: 5'6</p>
+                        <p>Age: 22</p>
+                        <p>Location: Muntinlupa, Philippines</p>
+                        <p>Current Relationship Status: Single</p>
+                        <p>Education: Current Irregular College Student in FEU ALABANG</p>
+                    </div>
+                    <div class="col-md-6">
+                        <!-- Add an image here -->
+                        <img src="Aboutmerowne.jpg" class="img-fluid float-right" alt="Additional Information Image">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="container">
+        <h2>Projects</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="project1.jpg" class="card-img-top" alt="Project 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Behind The mind of a successful and award winning game for people with muscle dystrophy</h5>
+                        <p class="card-text">In 2017, I lead a group that was tasked to make a game for people with disabilities. Therefore, we made decisions that we would make a game for people with muscle dystrophy. The game was innovative enough to win x2 Award winning for the game we made.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="project2.jpg" class="card-img-top" alt="Project 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Behind the mind of R.O.W.N.E Aesthetic Bricks</h5>
+                        <p class="card-text">This was a project I made for a subject of mine, that lead me into creating such bizarre type of products;</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="project3.jpg" class="card-img-top" alt="Project 3">
+                    <div class="card-body">
+                        <h5 class="card-title">FEU ALABANG website trial</h5>
+                        <p class="card-text">NO. I didn't make the site of FEU Alabang, it was just a part of a project the we had to make the very basic and bland HTML</p>
+                    </div>
+                </div>
+            </div>
+          
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <h2>Contact Me</h2>
+        <p>Feel free to reach out to me via the form below:</p>
+        <p>09179874768</p>
+    </section>
+
+    <!-- Footer -->
+    <footer class="container-fluid text-center">
+        <p>&copy; 2024 R.O.W.N.E All Rights Reserved.</p>
+    </footer>
+
+    <script>
+      document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+
+            const targetId = this.getAttribute('href').substring(1);
+            const targetElement = document.getElementById(targetId);
+
+            if (targetElement) {
+                targetElement.scrollIntoView({
+                    behavior: 'smooth'
+                });
+            };
+        });
+
+        // Button click event for the pop-up
+        document.getElementById('showPopup').addEventListener('click', function () {
+            alert('This is a pop-up with additional information!');
+        });
+    </script>
+
+    <!-- Bootstrap JS and Popper.js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
